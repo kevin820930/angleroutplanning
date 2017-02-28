@@ -3,7 +3,7 @@
 This routplanning function is for scara armrobot to move linearly.
 
 The function is:
-rout routplanning(double armbaselong,double arm2rate,double arm3rate,double angle1,double angle2,double angle3,double angle4,double distance,intpointsnum);
+</br>rout routplanning(double armbaselong,double arm2rate,double arm3rate,double angle1,double angle2,double angle3,double angle4,double distance,intpointsnum);
 </br>-armbaselong:The length of first arm which is closest to origin.
 </br>-arm2rate:The rate of second arm and firstarm.
 </br>-arm3rate:The rate of third arm and firstarm.The third arm also is the end arm.
