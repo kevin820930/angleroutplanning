@@ -27,6 +27,8 @@ If your input data is correct,You will receive the reply like below.
 
 The angle of the motor 1,3,4 which are used in lagrange method are listed in the moveangle.txt file
 
+Because the third arm move straightly,the angle change of motor 4 is equal to the angle change of motor 1 add motor 3,but positive and negative opposite.
+
 **Notice
 </br>The more number of points you enter to the lagrange function,the longer you will wait.
 </br>Because of the range of "long double",the larger value and the more number of your data is,the accuracy will be reduced.
