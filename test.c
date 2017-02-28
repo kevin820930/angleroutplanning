@@ -8,6 +8,7 @@
 #include "routplanning.h"
 
 int main(){
+    rout *routpoly=(rout *)malloc(sizeof(rout));
 /*
     double armbaselong=50;
     double arm2rate=0.63245;
@@ -28,8 +29,13 @@ int main(){
     double motor4angle=108.34;
     double movedistance=95;
 
+    int pointsnum=10,i;
+    *routpoly=routplanning(armbaselong,arm2rate,arm3rate,motor1angle,motor2angle,motor3angle,motor4angle,movedistance,pointsnum);
 
-    int pointsnum=10;
-    routplanning(armbaselong,arm2rate,arm3rate,motor1angle,motor2angle,motor3angle,motor4angle,movedistance,pointsnum);
+/*
+    for(i=pointsnum-1;i>=0;i--){
+	printf("%Lf ",routpoly->polynomial[i]);
+    }
+*/
 }
 
